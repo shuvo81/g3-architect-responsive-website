@@ -41,7 +41,7 @@
     border-radius: 8px;
     border: none;
 }
-main{
+main, .footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -200,6 +200,9 @@ main > section{
 }
 
 /* Sponsor section related styles */
+.our-sponsors{
+    margin-bottom: 80px;
+}
 .sponsor-info{
     max-width: 540px;
     margin: 50px auto;
@@ -215,6 +218,17 @@ main > section{
     filter: grayscale(100%);
 }
 
+
+/* Footer section styles */
+.footer{
+    background-color: #FFF4E7;
+}
+.copyright-text{
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
 
 
 
@@ -245,6 +259,9 @@ main > section{
     #experience-badge{
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .footer{
+        max-width: 100%;
     }
 }
 
